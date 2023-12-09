@@ -104,7 +104,7 @@ font-weight: 400;
 }
 
 .hero{
-  background-image: url(./images/nike-hero-bg.jpg);
+  background-image: url(/images/nike-hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: 1520px; 
   padding-top: 94px;
@@ -153,4 +153,16 @@ padding-left: 164px;
   margin-left: 164px;
   padding: 20px 61px 19px; 
   border-radius: 10px;
+}
+
+.list-advantages{
+display: flex;
+
+}
+.advantages-item-title{
+  color:  var(--main-text-color);
+text-align: center;
+font-family: Playfair Display;
+font-size: 36px;
+font-weight: 400;
 }
