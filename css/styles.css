@@ -84,6 +84,7 @@ font-weight: 300;
 .nav-item-link:hover, .nav-item-link:focus{
 color: var(--main-text-color);
 font-weight: 400;
+
 }
 .list-btn-leng{
   display: flex; 
@@ -99,6 +100,7 @@ font-weight: 400;
 .item-btn-leng:hover, .item-btn-leng:focus{
   color: var(--main-text-color);
   font-weight: 400;
+  cursor: pointer;
 }
 
 .hero{
