@@ -1,259 +1,251 @@
 :root{
- --main-bg-color: #012D63;
- --main-text-color:#FFF;
- --add-color:#C7C7C7;
- --accent-color:#959595;
- --btn-accent-color:#8e32c6;
-} 
-body{
-  font-family: Roboto;
+  --main-bg-color: #012D63;
+  --main-text-color:#FFF;
+  --add-color:#C7C7C7;
+  --accent-color:#959595;
+  --btn-accent-color:#8e32c6;
+ } 
+ body{
+   font-family: Roboto;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ p {
+   margin-top: 0;
+   margin-bottom: 0;
+ }
+ ul {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-left: 0;
+ }
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+ }
+ .list {
+   list-style: none;
+   padding: 0;
+ }
+ .link {
+   text-decoration: none;
+ }
+ .visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
+ .container{
+   width: 1140px;
+   padding: 0 15px;
+   margin: 0 auto;
+ }
+ .header{
+   background-color: var(--main-bg-color);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 16px;
+   padding-bottom: 17px;
+ }
+ .header .container {
+   display: flex;
+   align-items: center;
+ }
+ .nav {
+   font-size: 14px;
+   font-weight: 500;
+   letter-spacing: 0.28px;
+   margin-left: 152px;
+ }
+ .list-nav{
+   display: flex; 
+   gap: 29px;
+   margin-right: 0 auto;
+ }
+ .nav-item-link{
+   color: var(--add-color);
+ font-size: 24px;
+ font-weight: 300;
+ }
+ .nav-item-link:hover, .nav-item-link:focus{
+ color: var(--main-text-color);
+ font-weight: 400;
+ }
+ .list-btn-leng{
+   display: flex; 
+   margin-left: auto;
+ }
+ .item-btn-leng{
+   color: var(--add-color);
+   font-size: 24px;
+   font-weight: 300;
+   background-color: var(--main-bg-color);
+   border: transparent;
+ } 
+ .item-btn-leng:hover, .item-btn-leng:focus{
+   color: var(--main-text-color);
+   font-weight: 400;
+   cursor: pointer;
+ }
+ .hero{
+   background-image: url(../images/nike-hero-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: center;
+   padding-top: 94px;
+   padding-bottom: 183px;
+ }
+ .hero-logo-svg{
+   width: 160px;
+ }
+ .hero-initials{
+   color: var(--main-text-color);
+ font-family: PT Serif;
+ font-size: 48px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ }
+ .hero-title{
+   color: var(--main-text-color);
+ font-family: Playfair Display;
+ font-size: 144px;
+ font-weight: 400;
+ margin-left: -10px;
+ }
+ .hero-subtitle{
+   color:  var(--main-text-color);
+ font-family: Playfair Display;
+ font-size: 72px;
+ font-weight: 400;
+ margin-bottom: 12px;
+ } 
+ .hero-text{
+   color:  var(--main-text-color);
+ font-size: 18px;
+ font-weight: 400;
+ margin-bottom: 41px;
+ }
+ .hero-btn{
+   color: var(--main-text-color);
+   font-size: 24px;
+   font-weight: 400;
+   background-color: var(--btn-accent-color);
+   padding: 20px 61px 19px; 
+   border-radius: 10px;
+ }
+ .advantages{
+   background-image: url(../images/nike-advantages-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 105px;
+   padding-bottom: 105px;
+ }
+ .list-advantages{
+ display: flex;
+ border: 5px solid var(--btn-accent-color);
+ align-items: center;
+ }
+ .advantages-item-title{
+   color:  var(--main-text-color);
+ text-align: center;
+ font-family: Playfair Display;
+ font-size: 36px;
+ font-weight: 400;
+ }
+ .advantages-item{
+   margin-top: 25px;
+   padding-left: 50px;
+   padding-right: 50px; 
+   margin-bottom: 25px;
+ }
+ .advantages-item:nth-child(2){
+ margin-bottom: 19px;
+ padding-left: 95px;
+ padding-right: 95px;
+ margin-top: 25px;
+ border-left:  1px  solid var(--main-text-color) ;
+ border-right:  1px  solid var(--main-text-color) ;
+ }
+ .reviews{
+   background-image:  url(../images/nike-reviews-bg2.png), url(../images/nike-reviews-bg.jpg);
+   padding-top: 25px;
+   padding-bottom: 114px;
+   background-position: left bottom, center;
+   background-size: 250px, cover;
+   background-repeat: no-repeat;
 }
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.container{
-  width: 1140px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.header{
-  background-color: var(--main-bg-color);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 16px;
-  padding-bottom: 17px;
-}
-.header .container {
-  display: flex;
-  align-items: center;
-}
-.nav {
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-  margin-left: 152px;
-}
-.list-nav{
-  display: flex; 
-  gap: 29px;
-  margin-right: 0 auto;
-}
-.nav-item-link{
-  color: var(--add-color);
-font-size: 24px;
-font-weight: 300;
-}
-.nav-item-link:hover, .nav-item-link:focus{
-color: var(--main-text-color);
-font-weight: 400;
-
-}
-.list-btn-leng{
-  display: flex; 
-  margin-left: auto;
-}
-.item-btn-leng{
-  color: var(--add-color);
-  font-size: 24px;
-  font-weight: 300;
-  background-color: var(--main-bg-color);
-  border: transparent;
-} 
-.item-btn-leng:hover, .item-btn-leng:focus{
-  color: var(--main-text-color);
-  font-weight: 400;
-  cursor: pointer;
-}
-
-.hero{
-  background-image: url(../images/nike-hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center;
-  padding-top: 94px;
-  padding-bottom: 183px;
-}
-.hero-logo-svg{
-  width: 160px;
-}
-.hero-initials{
-  color: var(--main-text-color);
-font-family: PT Serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
-}
-.hero-title{
-  color: var(--main-text-color);
-font-family: Playfair Display;
-font-size: 144px;
-font-weight: 400;
-margin-left: -10px;
-}
-.hero-subtitle{
-  color:  var(--main-text-color);
-font-family: Playfair Display;
-font-size: 72px;
-font-weight: 400;
-margin-bottom: 12px;
-
-} 
-.hero-text{
-  color:  var(--main-text-color);
-font-size: 18px;
-font-weight: 400;
-margin-bottom: 41px;
-
-}
-.hero-btn{
-  color: var(--main-text-color);
-  font-size: 24px;
-  font-weight: 400;
-  background-color: var(--btn-accent-color);
-
-  padding: 20px 61px 19px; 
-  border-radius: 10px;
-}
-.advantages{
-  background-image: url(../images/nike-advantages-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 105px;
-  padding-bottom: 105px;
-}
-.list-advantages{
-display: flex;
-border: 5px solid var(--btn-accent-color);
-align-items: center;
-
-}
-.advantages-item-title{
-  color:  var(--main-text-color);
+ 
+  .reviews-title{
+    color: var(--main-text-color);
 text-align: center;
 font-family: Playfair Display;
-font-size: 36px;
-font-weight: 400;
-}
-.advantages-item{
-  margin-top: 25px;
-  padding-left: 50px;
-  padding-right: 50px; 
-  margin-bottom: 25px;
-}
-.advantages-item:nth-child(2){
-margin-bottom: 19px;
-padding-left: 95px;
-padding-right: 95px;
-margin-top: 25px;
-border-left:  1px  solid var(--main-text-color) ;
-border-right:  1px  solid var(--main-text-color) ;
-}
-.reviews{
-  padding-top: 25px;
-  padding-bottom: 114px;
-   background-image: url(../images/nike-reviews-bg.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.reviews-title{
-  color: var(--main-text-color);
-  font-family: Playfair Display;
-text-align: center;
 font-size: 48px;
-font-weight: 400; 
+font-weight: 400;
 padding-bottom: 24px;
-}
-.list-reviews{
-  display: flex;
-  gap: 93px;
-  justify-content: center;
-}
-.reviews-item{
-  border-radius: 15px;
-  flex-basis: 255px;
-  padding-left: 18px;
-  padding-right: 9px;
-}
-.reviews-item:first-child{
-  background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-  box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-  padding-left: 13px;
-  padding-right: 14px;
-}
-.reviews-item:nth-child(2){
-  background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
-}
+  }
+ .list-reviews{
+   display: flex;
+   gap: 93px;
+   justify-content: center;
+ }
+ .reviews-item{
+   border-radius: 15px;
+   flex-basis: 255px;
+   padding-left: 18px;
+   padding-right: 9px;
+ }
+ .reviews-item:first-child{
+   background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+   box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
+   padding-left: 13px;
+   padding-right: 14px;
+ }
+ .reviews-item:nth-child(2){
+   background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+   box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+} 
 .reviews-item:last-child{
+  border-radius: 15px;
   background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
+  box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C
 }
 .reviews-item-text{
-color: var(--main-text-color);
-font-size: 24px;
-font-weight: 400;
-padding-top: 49px;
-padding-bottom: 8px;
-}
-.reviews-item-date{
+ color: var(--main-text-color);
+ font-size: 24px;
+ font-weight: 400;
+ line-height: normal;
+ padding-top: 49px;
+ padding-bottom: 8px;
+ }
+ .reviews-item-date{
+   color: #D8D8D8;
+ font-size: 14px;
+ font-weight: 400;
+ padding-bottom: 47px;
+ }
+ .reviews-add-div{
+   display: flex;
+   padding-bottom: 29px;
+ }
+ .reviews-item-author{
+   color: var(--main-text-color);
+   font-size: 14px;
+   font-weight: 400;
+ }
+ .reviews-item-date-join{
   color: #D8D8D8;
-font-size: 14px;
-font-weight: 400;
-padding-bottom: 47px;
-}
-.reviews-add-div{
-  display: flex;
-  padding-bottom: 29px;
-}
-.reviews-item-author{
-  color: var(--main-text-color);
-font-size: 14px;
-font-weight: 400;
-}
-.reviews-item-date-join{
-  color: #D8D8D8;
-font-size: 12px;
-font-weight: 400;
-}
+  font-size: 12px;
+  font-weight: 400;
+ }
