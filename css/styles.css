@@ -113,15 +113,16 @@ font-weight: 400;
   padding-top: 94px;
   padding-bottom: 183px;
 }
-
-
+.hero-logo-svg{
+  width: 160px;
+}
 .hero-initials{
   color: var(--main-text-color);
-  font-family: PT Serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+font-family: PT Serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 
 }
 .hero-title{
@@ -129,6 +130,7 @@ font-weight: 400;
 font-family: Playfair Display;
 font-size: 144px;
 font-weight: 400;
+margin-left: -10px;
 }
 .hero-subtitle{
   color:  var(--main-text-color);
@@ -150,7 +152,7 @@ margin-bottom: 41px;
   font-size: 24px;
   font-weight: 400;
   background-color: var(--btn-accent-color);
-  margin-left: 164px;
+
   padding: 20px 61px 19px; 
   border-radius: 10px;
 }
@@ -193,4 +195,7 @@ border-right:  1px  solid var(--main-text-color) ;
 text-align: center;
 font-size: 48px;
 font-weight: 400;
+}
+.reviews-item-text{
+
 }
