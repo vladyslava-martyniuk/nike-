@@ -195,6 +195,9 @@ border-right:  1px  solid var(--main-text-color) ;
   background-position: center;
   background-size: cover;
 }
+.list-reviews{
+  display: flex;
+}
 .reviews-title{
   color: var(--main-text-color);
 text-align: center;
@@ -211,6 +214,9 @@ line-height: normal;
   color: #D8D8D8;
 font-size: 14px;
 font-weight: 400;
+}
+.reviews-add-div{
+  display: flex;
 }
 .reviews-item-author{
   color: var(--main-text-color);
