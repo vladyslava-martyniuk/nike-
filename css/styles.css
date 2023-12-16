@@ -190,6 +190,11 @@ margin-top: 25px;
 border-left:  1px  solid var(--main-text-color) ;
 border-right:  1px  solid var(--main-text-color) ;
 }
+.reviews{
+  background-image: url(../images/nike-reviews-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
 .reviews-title{
   color: var(--main-text-color);
 text-align: center;
@@ -197,5 +202,23 @@ font-size: 48px;
 font-weight: 400;
 }
 .reviews-item-text{
-
+color: var(--main-text-color);
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+.reviews-item-date{
+  color: #D8D8D8;
+font-size: 14px;
+font-weight: 400;
+}
+.reviews-item-author{
+  color: var(--main-text-color);
+font-size: 14px;
+font-weight: 400;
+}
+.reviews-item-date-join{
+  color: #D8D8D8;
+font-size: 12px;
+font-weight: 400;
 }
