@@ -205,6 +205,7 @@ font-weight: 400;
 .list-reviews{
   display: flex;
   gap: 93px;
+  justify-content: center;
 }
 .reviews-item{
   border-radius: 15px;
