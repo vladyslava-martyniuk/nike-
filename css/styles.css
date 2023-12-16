@@ -164,6 +164,7 @@ margin-bottom: 41px;
 .list-advantages{
 display: flex;
 border: 5px solid var(--btn-accent-color);
+align-items: center;
 
 }
 .advantages-item-title{
