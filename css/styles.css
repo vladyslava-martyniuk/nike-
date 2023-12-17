@@ -203,16 +203,16 @@ font-weight: 400;
  .reviews-item{
    border-radius: 15px;
    flex-basis: 255px;
-   margin-left: 18px;
-   margin-right: 9px;
-   padding-bottom: 24px;
-   padding-bottom: 29px;
+   padding-left: 18px;
+   padding-right: 9px;
+   padding-top: 24px;
+  padding-bottom: 29px;
  }
  .reviews-item:first-child{
    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
    box-shadow:  0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
-   margin-bottom: 13px;
-   margin-right: 14px;
+   padding-left: 13px;
+   padding-right: 14px;
  }
  .reviews-item:nth-child(2){
    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
