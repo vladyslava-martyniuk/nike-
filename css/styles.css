@@ -193,7 +193,7 @@ text-align: center;
 font-family: Playfair Display;
 font-size: 48px;
 font-weight: 400;
-padding-bottom: 24px;
+
   }
  .list-reviews{
    display: flex;
@@ -203,41 +203,43 @@ padding-bottom: 24px;
  .reviews-item{
    border-radius: 15px;
    flex-basis: 255px;
-   padding-left: 18px;
-   padding-right: 9px;
+   margin-left: 18px;
+   margin-right: 9px;
+   padding-bottom: 24px;
+   padding-bottom: 29px;
  }
  .reviews-item:first-child{
    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-   box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
-   padding-left: 13px;
-   padding-right: 14px;
+   box-shadow:  0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+   margin-bottom: 13px;
+   margin-right: 14px;
  }
  .reviews-item:nth-child(2){
    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-   box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
+   box-shadow:  0px 14px 0px -5px #9159B1,0px 30px 0px -13px #61337C;
 } 
 .reviews-item:last-child{
   border-radius: 15px;
   background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-  box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C
+  box-shadow:  0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 .reviews-item-text{
  color: var(--main-text-color);
  font-size: 24px;
  font-weight: 400;
  line-height: normal;
- padding-top: 49px;
- padding-bottom: 8px;
+ margin-top: 49px;
+ margin-bottom: 8px;
  }
  .reviews-item-date{
    color: #D8D8D8;
  font-size: 14px;
  font-weight: 400;
- padding-bottom: 47px;
+ margin-bottom: 47px;
  }
  .reviews-add-div{
    display: flex;
-   padding-bottom: 29px;
+   gap: 1px;
  }
  .reviews-item-author{
    color: var(--main-text-color);
