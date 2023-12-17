@@ -206,7 +206,7 @@ font-weight: 400;
    padding-left: 18px;
    padding-right: 9px;
    margin-top: 24px;
-  margin-bottom: 29px;
+  padding-bottom: 29px;
  }
  .reviews-item:first-child{
    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
@@ -251,3 +251,25 @@ font-weight: 400;
   font-size: 12px;
   font-weight: 400;
  }
+ .order{
+  background-image: url(../images/nike-order-bg.jpg);
+  padding-top: 20px;
+  padding-bottom: 37px;
+ }
+ 
+ .order-title{
+  color: var(--main-text-color);
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+ }
+ .order-btn{
+  color: var(--main-text-color);
+  font-size: 24px;
+  font-weight: 400;
+  background-color: var(--btn-accent-color);
+  padding: 20px 61px 19px; 
+  border-radius: 10px;
+  border: transparent;
+ } 
