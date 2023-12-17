@@ -205,8 +205,8 @@ font-weight: 400;
    flex-basis: 255px;
    padding-left: 18px;
    padding-right: 9px;
-   padding-top: 24px;
-  padding-bottom: 29px;
+   margin-top: 24px;
+  margin-bottom: 29px;
  }
  .reviews-item:first-child{
    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
