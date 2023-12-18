@@ -253,6 +253,9 @@ font-weight: 400;
  }
  .order{
   background-image: url(../images/nike-order-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 20px;
   padding-bottom: 37px;
  }
@@ -278,7 +281,6 @@ background: var(--main-text-color);
 font-size: 28px;
 font-weight: 400;
  }
- 
  .order-btn{
   color: var(--main-text-color);
   font-size: 24px;
@@ -288,3 +290,4 @@ font-weight: 400;
   border-radius: 10px;
   border: transparent;
  } 
+ 
