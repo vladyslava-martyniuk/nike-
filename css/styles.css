@@ -199,13 +199,14 @@ font-weight: 400;
    display: flex;
    gap: 93px;
    justify-content: center;
+   margin-top: 24px;
  }
  .reviews-item{
    border-radius: 15px;
    flex-basis: 255px;
    padding-left: 18px;
    padding-right: 9px;
-   margin-top: 24px;
+   padding-top: 49px;
   padding-bottom: 29px;
  }
  .reviews-item:first-child{
@@ -228,7 +229,7 @@ font-weight: 400;
  font-size: 24px;
  font-weight: 400;
  line-height: normal;
- margin-top: 49px;
+ 
  margin-bottom: 8px;
  }
  .reviews-item-date{
@@ -239,7 +240,7 @@ font-weight: 400;
  }
  .reviews-add-div{
    display: flex;
-   gap: 1px;
+   gap: 5px;
  }
  .reviews-item-author{
    color: var(--main-text-color);
