@@ -266,7 +266,10 @@ font-weight: 400;
   font-size: 48px;
   font-weight: 400;
   text-align: center;
-  padding-bottom: 33px;
+  padding: 33px;
+ }
+.order-form-box{
+  position:relative;
  }
  .order-input{
   color: var(--accent-color);
@@ -278,19 +281,33 @@ padding-bottom: 11px;
 padding-left: 24px;
 border-radius: 50px;
 background: var(--main-text-color);
-margin-bottom: 19px;
+display: block;
+  margin: 0 auto;
+  gap: 19px;
  }
+ 
  .order-form-btn{
   color: #8D8D8D;
 font-size: 28px;
 font-weight: 400;
+position:absolute;
+bottom:15px;
+right: 350px;
+background-color: var(--main-text-color);
+border: transparent;
+ }
+ .order-input:hover, .order-input:focus{
+  width: 690px;
  }
  .order-btn{
   color: var(--main-text-color);
+  display: block; 
+  margin: 0 auto;
   font-size: 24px;
   font-weight: 400;
   background-color: var(--btn-accent-color);
   padding: 20px 61px 19px; 
   border-radius: 10px;
   border: transparent;
+  margin-top: 19px;
  } 
