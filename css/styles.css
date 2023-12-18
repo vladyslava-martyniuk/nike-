@@ -266,6 +266,7 @@ font-weight: 400;
   font-size: 48px;
   font-weight: 400;
   text-align: center;
+  padding-bottom: 33px;
  }
  .order-input{
   color: var(--accent-color);
@@ -277,8 +278,7 @@ padding-bottom: 11px;
 padding-left: 24px;
 border-radius: 50px;
 background: var(--main-text-color);
-
-
+margin-bottom: 19px;
  }
  .order-form-btn{
   color: #8D8D8D;
