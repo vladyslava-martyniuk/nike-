@@ -283,7 +283,9 @@ border-radius: 50px;
 background: var(--main-text-color);
 display: block;
   margin: 0 auto;
-  gap: 19px;
+  margin-top: 19px;
+  border: none;
+  outline: none;
  }
  
  .order-form-btn{
@@ -291,8 +293,8 @@ display: block;
 font-size: 28px;
 font-weight: 400;
 position:absolute;
-bottom:15px;
-right: 350px;
+bottom:12px;
+right: 345px;
 background-color: var(--main-text-color);
 border: transparent;
  }
