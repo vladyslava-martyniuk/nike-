@@ -318,9 +318,53 @@ border: transparent;
   padding-top: 45px;
   padding-bottom: 50px;
  }
- .adress-item{
+ .list-address{
+margin-bottom: 20px;
+border-bottom:  1px solid var(--main-text-color);
+padding-bottom: 24px;
+ }
+ .address-item{
   display: flex;
 justify-content: space-around;
+margin-bottom: 10px;
  }
- 
- 
+ .address-link{
+  color: var(--main-text-color);
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  margin-left: auto;
+ }
+ .address-text{
+  color: var(--main-text-color);
+font-size: 24px;
+font-weight: 400;
+ }
+ .list-footer{
+  display: flex;
+  justify-content: space-between;
+ }
+ .footer-text-div{
+  text-align: left;
+ }
+ .footer-intials-div{
+  text-align: right;
+ }
+ .footer-text{
+  color: var(--main-text-color);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 7px;
+ }
+ .footer-intials{
+  color: #FFF;
+font-family: PT Serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+ }
+ .footer-item:nth-child(2){
+  margin-left: 0 auto;
+ }
