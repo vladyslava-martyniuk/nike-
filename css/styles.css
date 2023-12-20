@@ -266,7 +266,7 @@ font-weight: 400;
   font-size: 48px;
   font-weight: 400;
   text-align: center;
-  padding: 33px;
+  margin-bottom: 33px;
  }
 .order-form-box{
   position:relative;
@@ -299,7 +299,7 @@ background-color: var(--main-text-color);
 border: transparent;
  }
  .order-input:hover, .order-input:focus{
-  width: 690px;
+  transform: scale(1.2);
  }
  .order-btn{
   color: var(--main-text-color);
@@ -313,3 +313,14 @@ border: transparent;
   border: transparent;
   margin-top: 19px;
  } 
+ .footer{
+  background-color: var(--main-bg-color);
+  padding-top: 45px;
+  padding-bottom: 50px;
+ }
+ .adress-item{
+  display: flex;
+justify-content: space-around;
+ }
+ 
+ 
