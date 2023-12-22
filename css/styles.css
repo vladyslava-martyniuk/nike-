@@ -52,9 +52,6 @@
  }
  .header{
    background-color: var(--main-bg-color);
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
    padding-top: 16px;
    padding-bottom: 17px;
  }
@@ -71,7 +68,7 @@
  .list-nav{
    display: flex; 
    gap: 29px;
-   margin-right: 0 auto;
+   
  }
  .nav-item-link{
    color: var(--add-color);
@@ -111,6 +108,8 @@
  }
  .hero-initials{
    color: var(--main-text-color);
+   margin-left: 17px;
+   margin-top: -5px;
  font-family: PT Serif;
  font-size: 48px;
  font-style: normal;
@@ -147,6 +146,7 @@
  }
  .hero-btn:hover, .hero-btn:focus{
 cursor: pointer;
+opacity: 0.8;
  }
  .advantages{
    background-image: url(../images/nike-advantages-bg.jpg);
@@ -303,6 +303,7 @@ border: transparent;
  }
  .order-form-btn:hover, .order-form-btn:focus{
   cursor: pointer;
+  opacity: 0.8;
  }
  .order-input:hover, .order-input:focus{
   transform: scale(1.2);
@@ -321,7 +322,7 @@ border: transparent;
  } 
  .order-btn:hover, .order-btn:focus{
   cursor: pointer;
-
+opacity: 0.8;
  }
  .footer{
   background-color: var(--main-bg-color);
@@ -352,8 +353,9 @@ margin-bottom: 10px;
 font-size: 24px;
 font-weight: 400;
  }
- .address-item:last-child {
-  margin-bottom: 0;
+ .address-link:hover, address-link:focus{
+  cursor: pointer;
+  opacity: 0.8;
  }
  .foter-main-div{
   display: flex;
@@ -376,7 +378,6 @@ margin-bottom: 7px;
 font-family: PT Serif;
 font-size: 24px;
 font-weight: 400;
-margin-left: 0 auto;
-
+margin-left: 20px;
  }
  
