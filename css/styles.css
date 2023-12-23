@@ -143,6 +143,7 @@
    background-color: var(--btn-accent-color);
    padding: 20px 61px 19px; 
    border-radius: 10px;
+   border: none;
  }
  .hero-btn:hover, .hero-btn:focus{
 cursor: pointer;
